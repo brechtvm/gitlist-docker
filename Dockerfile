@@ -1,4 +1,5 @@
-FROM ubuntu:14.04
+#FROM ubuntu:14.04
+FROM resin/rpi-raspbian
 RUN apt-get update
 RUN apt-get -y install git nginx-full php5-fpm curl
 # Latest stable (1.0.1)
